@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<script>
+
+  function pulaLinha() {
+      document.write("<br>");
+  }
+
+  function mostra(frase) {
+      document.write(frase);
+      pulaLinha();
+  }
+
+  function sorteia(n) {
+    return Math.round(Math.random() * n)
+  }
+
+  var intervalo = parseInt(prompt('Digite o número máximo para o intervalo do sorteio: '))
+  var numeroPensado = sorteia(intervalo)
+  var tentativa = 1
+    while (tentativa <= 3) {
+      var chute = parseInt(prompt("Entre 0 e " + intervalo + ", qual você acha que é?"))
+      tentativa++
+
+      if (chute > intervalo) 
+        mostra('Esse número está fora do intervalo. Vamos tentar outra vez?')
+
+      else { 
+        if (chute == numeroPensado) {
+          mostra("Uau! Você acertou, pois eu também pensei no " + numeroPensado)
+          break
+        }
+        
+        else mostra("Você errou!");
+        
+      }
+    }
+    mostra('Fim!')
+
+</script>

@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+  
+  function pulaLinha(){
+    document.write('<br>')
+  }
+
+  function separadores(){
+    document.write('-------------------------------------------')
+  }
+
+  function mostra(texto){
+    separadores()
+    pulaLinha()
+    document.write(texto)
+    pulaLinha()
+    separadores()
+  }
+
+  var minhaIdade = 32
+  var idadeCibelle = 25
+  var diferenca = 32 - 25 
+  mostra(`Nossa diferença de idade é de ${diferenca} anos.`)
+
+</script>

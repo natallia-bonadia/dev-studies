@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+</head>
+<body>
+  <main>
+  <h1>Formulário de Cadastro</h1>
+  <form action="">
+    <div>
+      <label for="nome">Nome: </label>
+      <input type="text" name="nome" id="nome">
+    </div>
+    <br>
+    <div>
+      <label for="email">E-mail: </label>
+      <input type="email" name="email" id="email">
+    </div>
+    <br>
+    <div>
+      <label for="cpf">CPF: </label>
+      <input type="number" name="cpf" id="cpf" placeholder="Digite apenas números">
+    </div>
+    <div>
+      <p>Sexo:</p>
+      <input type="radio" name="sexo" id="feminino">
+      <label for="feminino">Feminino</label><br>
+      <input type="radio" name="sexo" id="masculino">
+      <label for="masculino">Masculino</label><br>
+      <input type="radio" name="sexo" id="outro">
+      <label for="sexo">Outro</label><br>
+      <input type="radio" name="sexo" id="semresposta">
+      <label for="sexo">Prefiro não responder</label>
+    </div>
+    <br>
+    <div>
+      <label for="nascimento">Data de nascimento: </label>
+      <input type="date" name="nascimento" id="nascimento">
+    </div>
+    <br>
+    <div>
+      <label for="telefone">Telefone: </label>
+      <input type="number" name="telefone" id="telefone" placeholder="Digite apenas números">
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" name="notificacoes" id="notificacoes" checked>
+      <label for="notificacoes">Deseja receber notificações por whatsapp</label>
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" name="ofertas" id="ofertas" checked>
+      <label for="ofertas">Deseja receber ofertas por e-mail</label>
+    </div>
+    <br>
+    <div>
+      <input type="submit" name="enviar" id="enviar" value="Enviar">
+    </div>
+  </form>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>

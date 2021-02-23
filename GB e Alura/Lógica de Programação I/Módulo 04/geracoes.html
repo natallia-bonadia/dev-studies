@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+  function pulaLinha(){
+    document.write('<br>')
+  }
+
+  function mostra(texto){
+    document.write('---------------------------------------')
+    pulaLinha()
+    document.write(texto)
+  }
+
+  var anoAtual = 2020
+  var anoPortugueses = 1500
+  var idadeCasal = 28
+
+  var diferencaAnos = 2020 - 1500
+  var qtdGeracoes = diferencaAnos / 28
+
+  mostra(`Desde 1500 até o ano atual se passaram aproximadamente ${Math.round(qtdGeracoes)} gerações.`)
+
+</script>

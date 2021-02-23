@@ -1,0 +1,54 @@
+body {
+  font-family: font-family: 'Assistant', sans-serif;
+  background-color: rgba(12, 25, 13, 15%)
+  }
+main {
+  width: 70%;
+  margin: 10% 100px;
+  background-image: linear-gradient(rgb(241, 255, 117), rgb(255, 122, 248));
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+  border-radius: 5rem;
+  border: 4px solid rgb(221, 51, 170);
+}
+
+main:hover {
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+}
+
+/* main:hover {
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+} PARA RETIRAR A SOMBRA
+*/
+
+h1 {
+  font-size: 4rem;
+}
+p {
+  font-size: 1.3rem;
+  text-align: justify;
+  color: rgba (10, 15, 12, 1);
+  line-height: 25px;
+  font-weight: 500;
+}
+span {
+  width: 200px;
+  height: 500px;
+  background-color: purple;
+  padding: 30px;
+}
+.bg-pink {
+  width: 200px;
+  height: 500px;
+  background-color: hotpink;
+}
+.bg-purple {
+  width: 200px;
+  height: 500px;
+  background-color: purple;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* para selecionar classe . e para id # */
+/* Oi Mozão! ♥ */

@@ -1,0 +1,143 @@
+body {
+  background-image: url("../images/fundo-lastsection.png");
+}
+
+#main-contact {
+  margin: 120px auto 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-contact h2 {
+  color: #f2fbff;
+  padding: 10px 0;
+}
+
+#main-contact .formulario {
+  color: #f2fbff;  
+  display: flex;
+}
+
+#main-contact .formulario .formulario-div .item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+#main-contact .formulario .formulario-div .select {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1rem;
+  height: 25px;
+}
+
+#main-contact .formulario .formulario-div .input {
+  color: #f2fbff;
+  width: 70%;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  border-bottom: 0.5px solid #f2fbff;
+}
+
+#main-contact .formulario .formulario-div .servicos {
+  appearance: none;
+  width: 140px;
+  background: #051022;
+  color: #f2fbff;
+  margin-left: 10px;
+  border-bottom: 1px solid #f2fbff;
+}
+
+#main-contact .formulario .formulario-div textarea {
+  border: 0.5px solid #f2fbff;
+  border-radius: 5px;
+}
+
+#main-contact .formulario .formulario-div .label-form {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#main-contact .formulario .formulario-div .item .fa.fa-user-o {
+  margin: 5px 0 0 5rem;
+}
+
+#main-contact .formulario .formulario-div .item .fa.fa-building-o {
+  margin: 5px 0 0 3.2rem;
+}
+
+#main-contact .formulario .formulario-div .item .fa.fa-envelope-o {
+  margin: 5px 0 0 3.8rem;
+}
+
+#main-contact .formulario .formulario-div .item .fa.fa-phone {
+  margin: 5px 0 0 2.5rem;
+}
+
+#main-contact .formulario .formulario-div .item .fa.fa-cogs {
+  margin: 5px 0 0 3.4rem;
+}
+
+#main-contact .formulario .formulario-div .item.align .fa.fa-comment-o {
+  margin: 5px 0 0 3.8rem;
+}
+
+#main-contact .formulario .formulario-div .button {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+#main-contact .formulario .formulario-div .button .form-button {
+  width: 60px;
+  color: #f2fbff;
+  background-color: transparent;
+  border: solid #f2fbff 1px;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #778fcf;
+  transition: 0.5s;
+}
+
+#main-contact .formulario .formulario-div .button .form-button:hover {
+  transform: translate(2px, 2px);
+}
+
+@media (max-width: 480px) {
+  #main-contact .titulo {
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  #main-contact .formulario {
+    margin-left: 70px;
+  }
+
+  #main-contact .formulario .formulario-div .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 0;
+  }
+
+  #main-contact .formulario .formulario-div .label-form {
+    margin: 8px 0;
+  }
+
+  #main-contact .formulario .formulario-div .item .fa {
+    display: none;
+  }
+  
+  #main-contact .formulario .formulario-div .button {
+    margin-right: 100px;
+  }
+
+  #main-contact .formulario .formulario-div .servicos {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}

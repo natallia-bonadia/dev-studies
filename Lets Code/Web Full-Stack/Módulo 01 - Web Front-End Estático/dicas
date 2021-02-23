@@ -1,0 +1,15 @@
+Dicas de comandos e otimização do site
+
+alt + shift + para baixo --> duplica a linha na linha embaixo
+ctrl + d --> procura a próxima ocorrência no texto
+<h1></h1> --> favorece a busca no Google por ser um "título"
+<strong></strong> --> coloca em negrito e dá ênfase ao texto
+<em></em> --> coloca em itálico e dá enfase ao texto
+
+tags
+main --> conteúdo principal
+aside --> conteúdo lateral
+header --> cabeçalho
+nav --> junto ao header para criar uma barra de navegação
+footer --> rodapé do site
+section --> sessões do site

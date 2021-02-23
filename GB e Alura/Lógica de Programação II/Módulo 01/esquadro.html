@@ -1,0 +1,25 @@
+<canvas width="500" height="500"></canvas>
+
+<script>
+
+  var tela = document.querySelector('canvas')
+  var pincel = tela.getContext('2d')
+
+  pincel.fillStyle = 'lightgrey'
+  pincel.fillRect(0, 0, 500, 500)
+
+  pincel.fillStyle = 'black'
+  pincel.beginPath()
+  pincel.moveTo(75, 50)
+  pincel.lineTo(425, 400)
+  pincel.lineTo(75, 400)
+  pincel.fill()
+
+  pincel.fillStyle = 'white'
+  pincel.beginPath()
+  pincel.moveTo(125, 175)
+  pincel.lineTo(300, 350)
+  pincel.lineTo(125, 350)
+  pincel.fill()
+
+</script>
